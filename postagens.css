@@ -1,0 +1,155 @@
+*{
+    background-color: pink;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+header h1{
+    color: black;
+}
+
+header .navegacao ul{
+    position: relative;
+    display: flex;
+}
+
+header .navegacao li{
+    list-style: none;
+}
+
+header .navegacao li a{
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-heading span{
+    color: palevioletred;
+}
+
+.blog-heading h3{
+    margin-top: 100px;
+    font-size: 2.4rem;
+    color: rgb(56, 56, 56);
+    font-weight: 600;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box{
+    width: 350px;
+    background-color: white;
+    border: 1px solid palevioletred;
+    margin: 20px;
+}
+
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-text span{
+    color: rgb(213, 86, 128);
+    font-size: 0.9rem;
+}
+
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(56, 56, 56);
+}
+
+.blog-text .blog-title:hover{
+    color: rgb(0, 0, 0);
+    transition: all ease 0.3s;
+}
+
+.blog-text p{
+    color: rgba(67, 65, 65, 0.788);
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
+.blog-text a{
+    color: black;
+}
+
+.blog-text a:hover{
+    color: palevioletred;
+    transition: all ease 0.3s;
+}
+
