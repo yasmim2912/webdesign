@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suporte ao Cliente</title>
+<link rel="stylesheet" href="../css/suporte.css">
+</head>
+<body>
+  
+    <header>
+        <li><a href="../html/index.html"><h1>Brilho & Estilo</h1></a></li> 
+         <nav class="navegacao">
+             <ul>
+                 <li> <a href="../html/sobre.html">Sobre</a></li>
+                 <li> <a href="../html/postagens.html">Postagens</a></li>
+                 <li> <a href="../html/suporte.html">Suporte</a></li>
+             </ul>
+         </nav>
+     </header>
+  
+
+  <h1 class="titulo">Suporte ao Cliente</h1>
+  <div class="container">
+    <h2>Entre em Contato</h2>
+    <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
+    <form class="contact-form" action="enviar_mensagem" method="post">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="message">Mensagem:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
